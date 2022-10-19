@@ -1,0 +1,36 @@
+Source: unidecode
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Stefano Rivera <stefanor@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-python,
+ python3-all (>= 3.4),
+ python3-setuptools
+Standards-Version: 4.6.0
+Homepage: https://pypi.org/project/Unidecode/
+Vcs-Git: https://salsa.debian.org/python-team/packages/unidecode.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/unidecode
+Rules-Requires-Root: no
+
+Package: python3-unidecode
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: ASCII transliterations of Unicode text (Python 3 module)
+ It often happens that you have text data in Unicode, but you need to represent
+ it in ASCII for display. One could represent non-roman Unicode characters as
+ "???" or "\\15BA\\15A0\\1610", but neither is useful to the user reading the
+ text.
+ .
+ Unidecode tries to represent it in ASCII characters (i.e., the universally
+ displayable characters between 0x00 and 0x7F), where the compromises taken
+ when mapping between two character sets are chosen to be near what a human
+ with a US keyboard would choose.
+ .
+ This module generally produces better results than simply stripping accents
+ from characters (which can be done in Python with built-in functions). It is
+ based on hand-tuned character mappings that for example also contain ASCII
+ approximations for symbols and non-Latin alphabets.
+ .
+ unidecode is a Python 3 port of the Text::Unidecode Perl module.

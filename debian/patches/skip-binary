@@ -1,0 +1,29 @@
+From: Stefano Rivera <stefanor@debian.org>
+Date: Thu, 8 Oct 2015 14:19:51 -0700
+Subject: Skip the unidecode binary
+
+We would only want to have it in one package.
+If there's sufficient demand, we can create one for it.
+
+Last-Updated: 2015-07-05
+Forwarded: not-needed
+---
+ setup.py | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/setup.py b/setup.py
+index feab9d5..9099a8a 100644
+--- a/setup.py
++++ b/setup.py
+@@ -24,11 +24,6 @@ setup(
+ 
+     test_suite='tests',
+ 
+-    entry_points={
+-        'console_scripts': [
+-            'unidecode = unidecode.util:main'
+-        ]
+-    },
+     classifiers=[
+         "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+         "Programming Language :: Python",

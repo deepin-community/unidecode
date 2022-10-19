@@ -1,0 +1,181 @@
+unidecode (1.3.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 17 Sep 2021 21:01:11 -0700
+
+unidecode (1.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Stefano Rivera <stefanor@debian.org>  Mon, 13 Sep 2021 21:26:59 -0700
+
+unidecode (1.3.0-1) unstable; urgency=medium
+
+  [ Stefano Rivera ]
+  * New upstream release.
+  * Bump Standards-Version to 4.6.0, no changes needed.
+  * Update homepage URL to pypi.org.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+ -- Stefano Rivera <stefanor@debian.org>  Wed, 08 Sep 2021 15:58:07 -0700
+
+unidecode (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump copyright years.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 07 Feb 2021 12:15:08 -0800
+
+unidecode (1.1.2-1) unstable; urgency=medium
+
+  [ Stefano Rivera ]
+  * New upstream release.
+  * Refresh patches.
+  * Add upstream metadata.
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Bump copyright years.
+  * Bump watch file format to 4, no changes needed.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 20 Dec 2020 21:21:32 -0800
+
+unidecode (1.1.1-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #938755
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 12 Dec 2019 19:22:40 -0500
+
+unidecode (1.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Drop PyPy support
+
+ -- Ondřej Nový <onovy@debian.org>  Mon, 22 Jul 2019 18:53:45 +0200
+
+unidecode (1.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh patches.
+  * Bump debhelper compat to 12, using B-D syntax.
+  * Bump copyright years.
+  * Bump Standards-Version to 4.4.0, no changes needed.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 14 Jul 2019 18:02:26 -0300
+
+unidecode (1.0.23-1) unstable; urgency=medium
+
+  [ Stefano Rivera ]
+  * New upstream release.
+  * Bump Standards-Version to 4.3.0, no changes needed.
+
+  [ Ondřej Nový ]
+  * d/tests: Use AUTOPKGTEST_TMP instead of ADTTMP
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 28 Dec 2018 20:19:41 +0100
+
+unidecode (1.0.22-1) unstable; urgency=medium
+
+  [ Stefano Rivera ]
+  * New upstream release.
+  * Update copyright years.
+  * Refresh patches.
+  * Bump debhelper compat level to 11.
+  * Bump Standards-Version to 4.1.3, no changes needed.
+  * Declare Rules-Requires-Root: no.
+
+  [ Ondřej Nový ]
+  * Fixed homepage (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Use https protocol in Format field
+  * d/watch: Use https protocol
+
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 20 Feb 2018 11:37:43 -0800
+
+unidecode (0.04.19-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump copyright years.
+  * Switch Vcs URLs to https://.
+  * Use C.UTF-8 locale in tests.
+
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 02 Feb 2016 14:49:41 +1100
+
+unidecode (0.04.18-2) unstable; urgency=medium
+
+  * Fix autopkgtests, the upstream test-suite was reorganised in 0.04.18.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sat, 24 Oct 2015 17:27:39 -0700
+
+unidecode (0.04.18-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump copyright years.
+  * Point watch file at pypi.debian.net.
+  * Drop XS-Testsuite control field, now unnecessary.
+  * Use PYBUILD_NAME instead of .install files.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 20 Sep 2015 18:22:52 -0700
+
+unidecode (0.04.16-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright years.
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 17 Oct 2014 19:42:25 -0700
+
+unidecode (0.04.14-1) unstable; urgency=low
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.5, no changes needed.
+
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 21 Jan 2014 19:44:58 +0200
+
+unidecode (0.04.13-1) unstable; urgency=low
+
+  * New upstream release.
+    - Adds transliterations.
+  * Build with pybuild.
+  * Add binary package for PyPy: pypy-unidecode.
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 09 Aug 2013 18:52:28 +0200
+
+unidecode (0.04.12-1) unstable; urgency=low
+
+  [ Stefano Rivera ]
+  * New upstream release.
+  * Switch watch file to https.
+  * Bump machine-readable copyright format to 1.0.
+  * Bump Standards-Version to 3.9.4
+    - Bump debhelper B-D to 8.1, for build-{arch,indep} support.
+  * Bump debhelper compat level to 8.
+  * Add autopkgtests.
+
+  [ Piotr Ożarowski ]
+  * Bump minimum required Python version to 2.6
+    (due to 'from . import * ' syntax)
+
+  [ Jakub Wilk ]
+  * Use canonical URIs for Vcs-* fields.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sun, 02 Jun 2013 19:04:31 +0200
+
+unidecode (0.04.9-1) unstable; urgency=low
+
+  * Initial release (Closes: #649477)
+
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 22 Nov 2011 17:02:15 +0200

@@ -1,0 +1,10 @@
+---
+Bug-Database: https://github.com/avian2/unidecode/issues
+Bug-Submit: https://github.com/avian2/unidecode/issues/new
+Changelog: https://github.com/avian2/unidecode/blob/master/ChangeLog
+FAQ: https://pypi.org/project/Unidecode/#frequently-asked-questions
+Registry:
+  - Name: PyPI
+    Entry: Unidecode
+Repository: https://www.tablix.org/~avian/git/unidecode.git/
+Repository-Browse: https://github.com/avian2/unidecode
