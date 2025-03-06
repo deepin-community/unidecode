@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: Unidecode
-Version: 1.3.2
+Version: 1.3.8
 Summary: ASCII transliterations of Unicode text
 Home-page: UNKNOWN
 Author: Tomaz Solc
@@ -273,7 +273,7 @@ Description: Unidecode, lossy ASCII transliterations of Unicode text
         
         Python code and later additions:
         
-        Copyright 2021, Tomaž Šolc <tomaz.solc@tablix.org>
+        Copyright 2024, Tomaž Šolc <tomaz.solc@tablix.org>
         
         This program is free software; you can redistribute it and/or modify it
         under the terms of the GNU General Public License as published by the Free
