@@ -1,2 +1,2 @@
 Tests: unittests3
-Depends: python3-unidecode, python3-all
+Depends: python3-all, python3-unidecode

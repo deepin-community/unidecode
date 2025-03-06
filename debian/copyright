@@ -5,11 +5,11 @@ Source: https://pypi.org/project/Unidecode/
 
 Files: *
 Copyright: 2001, Sean M. Burke <sburke@cpan.org>
-           2011-2021, Tomaz Solc <tomaz.solc@tablix.org>
+           2011-2024, Tomaz Solc <tomaz.solc@tablix.org>
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2010-2021, Stefano Rivera <stefanor@debian.org>
+Copyright: 2010-2024, Stefano Rivera <stefanor@debian.org>
 License: GPL-2+
 
 License: GPL-2+

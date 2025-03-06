@@ -12,7 +12,7 @@ Forwarded: not-needed
  1 file changed, 5 deletions(-)
 
 diff --git a/setup.py b/setup.py
-index feab9d5..9099a8a 100644
+index 91a989d..f0cbea7 100644
 --- a/setup.py
 +++ b/setup.py
 @@ -24,11 +24,6 @@ setup(

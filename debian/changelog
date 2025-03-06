@@ -1,3 +1,40 @@
+unidecode (1.3.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump copyright years.
+
+ -- Stefano Rivera <stefanor@debian.org>  Thu, 18 Jan 2024 10:59:23 -0400
+
+unidecode (1.3.7-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump copyright years.
+  * Bump Standards-Version to 4.6.2, no changes needed.
+
+ -- Stefano Rivera <stefanor@debian.org>  Tue, 03 Oct 2023 11:34:28 +0200
+
+unidecode (1.3.6-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 4.6.1, no changes needed.
+
+ -- Stefano Rivera <stefanor@debian.org>  Sat, 01 Oct 2022 14:36:59 +0200
+
+unidecode (1.3.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump copyright years.
+
+ -- Stefano Rivera <stefanor@debian.org>  Fri, 11 Mar 2022 10:41:24 -0400
+
+unidecode (1.3.3-1) unstable; urgency=medium
+
+  * New upstream version
+  * Drop unnecessary versioned dependency on python3-all.
+  * Bump copyright years.
+
+ -- Stefano Rivera <stefanor@debian.org>  Wed, 23 Feb 2022 10:27:32 -0400
+
 unidecode (1.3.2-1) unstable; urgency=medium
 
   * New upstream release.

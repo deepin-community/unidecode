@@ -1,17 +1,17 @@
 Source: unidecode
-Section: python
-Priority: optional
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
 Uploaders: Stefano Rivera <stefanor@debian.org>
+Section: python
+Priority: optional
 Build-Depends:
  debhelper-compat (= 13),
  dh-python,
- python3-all (>= 3.4),
+ python3-all,
  python3-setuptools
-Standards-Version: 4.6.0
-Homepage: https://pypi.org/project/Unidecode/
-Vcs-Git: https://salsa.debian.org/python-team/packages/unidecode.git
+Standards-Version: 4.6.2
 Vcs-Browser: https://salsa.debian.org/python-team/packages/unidecode
+Vcs-Git: https://salsa.debian.org/python-team/packages/unidecode.git
+Homepage: https://pypi.org/project/Unidecode/
 Rules-Requires-Root: no
 
 Package: python3-unidecode
